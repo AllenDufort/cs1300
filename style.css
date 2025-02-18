@@ -3,8 +3,8 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 200vw;
-  height: 500vh;
+  width: 100%;
+  height: auto;
 }
 
 .part .div {
@@ -14,11 +14,10 @@
     rgb(207, 207, 207) 0%,
     rgb(18, 18, 18) 77%
   );
-  width: inherit;
-  height: inherit; /* Set height to match .part */
+  width: 100%;
+  height: 100%;
   position: relative;
 }
-
 
 .part .text-wrapper {
   font-weight: 700;
@@ -42,9 +41,9 @@
 
 .part .components {
   position: absolute;
-  width: 377px;
+  width: 100%;
   top: 165px;
-  left: 114px;
+  left: 0;
   font-family: "Quantico", Helvetica;
   font-style: bold;
   font-weight: 400;
@@ -56,9 +55,9 @@
 
 .part .comparisons {
   position: absolute;
-  width: 380px;
+  width: 100%;
   top: 165px;
-  left: 706px;
+  left: 0;
   font-family: "Quantico", Helvetica;
   font-style: bold;
   font-weight: 400;
@@ -71,11 +70,11 @@
 .part .table {
   display: flex;
   flex-direction: column;
-  width: 700px;
+  width: 100%;
   align-items: flex-start;
   position: absolute;
   top: 833px;
-  left: 98px;
+  left: 0;
   background-color: #757575;
   border-radius: 15px;
   overflow: hidden;
@@ -198,10 +197,10 @@
 
 .part .quantico-bold {
   position: absolute;
-  width: 975px;
-  height: 115px;
+  width: 100%;
+  height: auto;
   top: 24px;
-  left: 111px;
+  left: 0;
   -webkit-text-stroke: 1px #000000;
   font-family: "Quantico", Helvetica;
   font-style: bold;
@@ -276,4 +275,47 @@
   font-size: 15px;
   letter-spacing: 0;
   line-height: 17.2px;
+}
+
+/* Media Queries for Mobile */
+@media (max-width: 768px) {
+  .part {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+
+  .part .components,
+  .part .comparisons {
+    position: relative;
+    width: 100%;
+    top: auto;
+    left: auto;
+    text-align: center;
+  }
+
+  .part .table {
+    width: 100%;
+    top: auto;
+    left: auto;
+    margin-top: 20px;
+  }
+
+  .part .quantico-bold {
+    font-size: 32px;
+    line-height: 36.8px;
+  }
+
+  .part .quantico-bold-2 {
+    font-size: 18px;
+    line-height: 20.7px;
+  }
+
+  .part .quantico-bold-3,
+  .part .quantico-bold-4,
+  .part .quantico-reg,
+  .part .cell-text {
+    font-size: 12px;
+    line-height: 14.4px;
+  }
 }
