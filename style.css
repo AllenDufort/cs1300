@@ -42,9 +42,9 @@
 
 .part .components {
   position: absolute;
-  width: 377px;
+  width: 35%;
   top: 165px;
-  left: 114px;
+  left: 10%;
   font-family: "Quantico", Helvetica;
   font-style: bold;
   font-weight: 400;
@@ -56,9 +56,9 @@
 
 .part .comparisons {
   position: absolute;
-  width: 380px;
+  width: 35%;
   top: 165px;
-  left: 706px;
+  left: 55%;
   font-family: "Quantico", Helvetica;
   font-style: bold;
   font-weight: 400;
@@ -75,7 +75,7 @@
   align-items: flex-start;
   position: absolute;
   top: 833px;
-  left: 98px;
+  left: 10%;
   background-color: #757575;
   border-radius: 15px;
   overflow: hidden;
