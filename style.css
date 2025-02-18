@@ -4,7 +4,7 @@
   flex-direction: row;
   justify-content: center;
   width: 100vw;
-  height: 500vh;
+  height: 2000px;
 }
 
 .part .div {
@@ -196,12 +196,12 @@
   line-height: 24.0px;
 }
 
-.part .quantico-bold {
+.part .title {
   position: absolute;
-  width: 975px;
+  width: 80%;
   height: 115px;
   top: 24px;
-  left: 111px;
+  left: 10%;
   -webkit-text-stroke: 1px #000000;
   font-family: "Quantico", Helvetica;
   font-style: bold;
@@ -213,7 +213,7 @@
   line-height: 73.6px;
 }
 
-.part .quantico-bold-2 {
+.part .quantico-bold {
   position: relative;
   align-self: stretch;
   margin-top: -1.00px;
@@ -227,7 +227,7 @@
   line-height: 27.6px;
 }
 
-.part .quantico-bold-3 {
+.part .quantico-bold-small {
   position: relative;
   align-self: stretch;
   margin-top: -2.00px;
@@ -235,19 +235,6 @@
   font-style: bold;
   font-weight: 700;
   color: #ffffff;
-  font-size: 15px;
-  letter-spacing: 0;
-  line-height: 17.2px;
-}
-
-.part .quantico-bold-4 {
-  position: relative;
-  align-self: stretch;
-  margin-top: -2.00px;
-  font-family: "Quantico", Helvetica;
-  font-style: bold;
-  font-weight: 400;
-  color: #000000;
   font-size: 15px;
   letter-spacing: 0;
   line-height: 17.2px;
