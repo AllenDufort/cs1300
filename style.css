@@ -23,7 +23,8 @@
   width: 377px;
   top: 165px;
   left: 114px;
-  font-family: "Quantico-Bold", Helvetica;
+  font-family: "Quantico", Helvetica;
+  font-style: bold;
   font-weight: 400;
   color: transparent;
   font-size: 20px;
@@ -37,7 +38,9 @@
 }
 
 .part .span {
-  font-family: "Quantico-Regular", Helvetica;
+  font-family: "Quantico", Helvetica;
+  font-style: normal;
+  font-weight: 400;
   color: #ffffff;
   font-size: 15px;
   line-height: 24.0px;
@@ -51,7 +54,8 @@
 }
 
 .part .red-text {
-  font-family: "Quantico-Regular", Helvetica;
+  font-family: "Quantico", Helvetica;
+  font-style: normal;
   color: #fa5040;
   font-size: 15px;
   line-height: 24.0px;
@@ -72,7 +76,8 @@
 }
 
 .part .green-text-2 {
-  font-family: "Quantico-Regular", Helvetica;
+  font-family: "Quantico", Helvetica;
+  font-style: normal;
   color: #1bd760;
   font-size: 15px;
   line-height: 24.0px;
@@ -83,7 +88,8 @@
   width: 380px;
   top: 165px;
   left: 706px;
-  font-family: "Quantico-Bold", Helvetica;
+  font-family: "Quantico", Helvetica;
+  font-style: bold;
   font-weight: 400;
   color: #ffffff;
   font-size: 20px;
@@ -102,7 +108,8 @@
 }
 
 .part .text-wrapper-2 {
-  font-family: "Quantico-Regular", Helvetica;
+  font-family: "Quantico", Helvetica;
+  font-style: normal;
   font-size: 15px;
   line-height: 24.0px;
 }
@@ -114,7 +121,8 @@
   top: 24px;
   left: 111px;
   -webkit-text-stroke: 1px #000000;
-  font-family: "Quantico-Bold", Helvetica;
+  font-family: "Quantico", Helvetica;
+  font-style: bold;
   font-weight: 700;
   color: #ffffff;
   font-size: 64px;
@@ -170,7 +178,8 @@
   position: relative;
   align-self: stretch;
   margin-top: -1.00px;
-  font-family: "Quantico-Bold", Helvetica;
+  font-family: "Quantico", Helvetica;
+  font-style: bold;
   font-weight: 700;
   color: #ffffff;
   font-size: 24px;
@@ -211,7 +220,8 @@
   position: relative;
   align-self: stretch;
   margin-top: -2.00px;
-  font-family: "Quantico-Bold", Helvetica;
+  font-family: "Quantico", Helvetica;
+  font-style: bold;
   font-weight: 400;
   color: #000000;
   font-size: 15px;
@@ -220,7 +230,8 @@
 }
 
 .part .quantico-reg {
-  font-family: "Quantico-Regular", Helvetica;
+  font-family: "Quantico", Helvetica;
+  font-style: normal;
   color: #ffffff;
 }
 
@@ -228,7 +239,8 @@
   position: relative;
   align-self: stretch;
   margin-top: -1.00px;
-  font-family: "Quantico-Bold", Helvetica;
+  font-family: "Quantico", Helvetica;
+  font-style: bold;
   font-weight: 400;
   color: #000000;
   font-size: 15px;
@@ -251,7 +263,8 @@
 .part .div-4 {
   position: relative;
   align-self: stretch;
-  font-family: "Quantico-Bold", Helvetica;
+  font-family: "Quantico", Helvetica;
+  font-style: bold;
   font-weight: 400;
   color: #000000;
   font-size: 15px;
@@ -262,7 +275,8 @@
 .part .phone-light-gray {
   position: relative;
   align-self: stretch;
-  font-family: "Quantico-Bold", Helvetica;
+  font-family: "Quantico", Helvetica;
+  font-style: bold;
   font-weight: 400;
   color: #ffffff;
   font-size: 15px;
@@ -271,14 +285,16 @@
 }
 
 .part .quantico-reg-2 {
-  font-family: "Quantico-Regular", Helvetica;
+  font-family: "Quantico", Helvetica;
+  font-style: normal;
 }
 
 .part .quantico-bold-3 {
   position: relative;
   align-self: stretch;
   margin-top: -2.00px;
-  font-family: "Quantico-Bold", Helvetica;
+  font-family: "Quantico", Helvetica;
+  font-style: bold;
   font-weight: 700;
   color: #ffffff;
   font-size: 15px;
@@ -290,7 +306,8 @@
   position: relative;
   align-self: stretch;
   margin-top: -1.00px;
-  font-family: "Quantico-Regular", Helvetica;
+  font-family: "Quantico", Helvetica;
+  font-style: normal;
   font-weight: 400;
   color: #ffffff;
   font-size: 15px;
@@ -301,7 +318,8 @@
 .part .quantico-reg-4 {
   position: relative;
   align-self: stretch;
-  font-family: "Quantico-Regular", Helvetica;
+  font-family: "Quantico", Helvetica;
+  font-style: normal;
   font-weight: 400;
   color: #ffffff;
   font-size: 15px;
