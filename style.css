@@ -18,7 +18,28 @@
   position: relative;
 }
 
-.part .UI-component-of {
+
+.part .text-wrapper {
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.part .text-wrapper-1 {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 24.0px;
+}
+
+.part .span {
+  font-family: "Quantico", Helvetica;
+  font-style: normal;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 15px;
+  line-height: 24.0px;
+}
+
+.part .components {
   position: absolute;
   width: 377px;
   top: 165px;
@@ -30,20 +51,22 @@
   font-size: 20px;
   letter-spacing: 0;
   line-height: 32.0px;
+  padding-bottom: 50px; /* Add padding to the bottom */
 }
 
-.part .text-wrapper {
-  font-weight: 700;
-  color: #ffffff;
-}
-
-.part .span {
+.part .comparisons {
+  position: absolute;
+  width: 380px;
+  top: 165px;
+  left: 706px;
   font-family: "Quantico", Helvetica;
-  font-style: normal;
+  font-style: bold;
   font-weight: 400;
   color: #ffffff;
-  font-size: 15px;
-  line-height: 24.0px;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 32.0px;
+  padding-bottom: 50px; /* Add padding to the bottom */
 }
 
 .part .yellow-text {
@@ -79,30 +102,6 @@
   font-family: "Quantico", Helvetica;
   font-style: normal;
   color: #1bd760;
-  font-size: 15px;
-  line-height: 24.0px;
-}
-
-.part .similarities-across {
-  position: absolute;
-  width: 380px;
-  top: 165px;
-  left: 706px;
-  font-family: "Quantico", Helvetica;
-  font-style: bold;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 20px;
-  letter-spacing: 0;
-  line-height: 32.0px;
-}
-
-.part .text-wrapper {
-  font-weight: 700;
-}
-
-.part .text-wrapper-1 {
-  font-weight: 700;
   font-size: 15px;
   line-height: 24.0px;
 }
@@ -160,34 +159,6 @@
   border-color: #ffffff;
 }
 
-.part .div-2 {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 7px;
-  position: relative;
-  flex: 1;
-  align-self: stretch;
-  flex-grow: 1;
-  border-right-width: 1px;
-  border-right-style: solid;
-  border-color: #ffffff;
-}
-
-.part .quantico-bold-2 {
-  position: relative;
-  align-self: stretch;
-  margin-top: -1.00px;
-  font-family: "Quantico", Helvetica;
-  font-style: bold;
-  font-weight: 700;
-  color: #ffffff;
-  font-size: 24px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 27.6px;
-}
-
 .part .table-row-2 {
   justify-content: space-between;
   width: 100%;
@@ -216,7 +187,60 @@
   border-color: #ffffff;
 }
 
-.part .p {
+.part .table-cell-2 {
+  border: 0px none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 7px;
+  position: relative;
+  flex: 1;
+  align-self: stretch;
+  flex-grow: 1;
+}
+
+.part .table-cell-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 7px;
+  position: relative;
+  flex: 1;
+  align-self: stretch;
+  flex-grow: 1;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-color: #ffffff;
+}
+
+.part .quantico-bold-2 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Quantico", Helvetica;
+  font-style: bold;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 27.6px;
+}
+
+.part .quantico-bold-3 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -2.00px;
+  font-family: "Quantico", Helvetica;
+  font-style: bold;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 17.2px;
+}
+
+.part .quantico-bold-4 {
   position: relative;
   align-self: stretch;
   margin-top: -2.00px;
@@ -235,71 +259,9 @@
   color: #ffffff;
 }
 
-.part .div-3 {
-  position: relative;
-  align-self: stretch;
-  margin-top: -1.00px;
-  font-family: "Quantico", Helvetica;
-  font-style: bold;
-  font-weight: 400;
-  color: #000000;
-  font-size: 15px;
-  letter-spacing: 0;
-  line-height: 17.2px;
-}
-
-.part .table-cell-2 {
-  border: 0px none;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 7px;
-  position: relative;
-  flex: 1;
-  align-self: stretch;
-  flex-grow: 1;
-}
-
-.part .div-4 {
-  position: relative;
-  align-self: stretch;
-  font-family: "Quantico", Helvetica;
-  font-style: bold;
-  font-weight: 400;
-  color: #000000;
-  font-size: 15px;
-  letter-spacing: 0;
-  line-height: 17.2px;
-}
-
-.part .phone-light-gray {
-  position: relative;
-  align-self: stretch;
-  font-family: "Quantico", Helvetica;
-  font-style: bold;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 15px;
-  letter-spacing: 0;
-  line-height: 17.2px;
-}
-
 .part .quantico-reg-2 {
   font-family: "Quantico", Helvetica;
   font-style: normal;
-}
-
-.part .quantico-bold-3 {
-  position: relative;
-  align-self: stretch;
-  margin-top: -2.00px;
-  font-family: "Quantico", Helvetica;
-  font-style: bold;
-  font-weight: 700;
-  color: #ffffff;
-  font-size: 15px;
-  letter-spacing: 0;
-  line-height: 17.2px;
 }
 
 .part .quantico-reg-3 {
@@ -320,6 +282,30 @@
   align-self: stretch;
   font-family: "Quantico", Helvetica;
   font-style: normal;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 17.2px;
+}
+
+.part .cell-text {
+  position: relative;
+  align-self: stretch;
+  font-family: "Quantico", Helvetica;
+  font-style: bold;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 17.2px;
+}
+
+.part .phone-light-gray {
+  position: relative;
+  align-self: stretch;
+  font-family: "Quantico", Helvetica;
+  font-style: bold;
   font-weight: 400;
   color: #ffffff;
   font-size: 15px;
