@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify State Model</title>
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="part">
+      <section class="state-model">
+        <h1 class="state-model__title">Spotify State Model</h1>
+        <div class="state-model__diagram">
+          <div class="state initial-state">
+            <p class="state__text">Initial State</p>
+          </div>
+          <div class="state hover">
+            <p class="state__text">
+              <strong>Hover</strong><br />
+              <span>fill slightly lightens, light gray outline</span>
+            </p>
+          </div>
+          <div class="state focused">
+            <p class="state__text">
+              <strong>Focused</strong><br />
+              <span>fill goes to initial state,<br />white outline</span>
+            </p>
+          </div>
+          <img class="transition hover-init" src="img/image.svg" alt="Transition from hover to initial state" />
+          <img class="transition init-hover" src="img/init-hover.svg" alt="Transition from initial state to hover" />
+          <img class="transition vector" src="img/vector-1.svg" alt="Transition vector" />
+          <img
+            class="transition hover-init-long"
+            src="img/hover-init.svg"
+            alt="Long transition from hover to initial state"
+          />
+          <p class="transition-label mouse-leaves">Mouse leaves</p>
+          <p class="transition-label mouse-clicks-another">Mouse clicks another component</p>
+          <p class="transition-label mouse-clicked">Mouse clicked</p>
+          <p class="transition-label mouse-enters">Mouse enters</p>
+        </div>
+        <div class="focus-model">
+          <div class="state initial-state">
+            <p class="state__text">Initial State</p>
+          </div>
+          <div class="state focused">
+            <p class="state__text">
+              <strong>Focused</strong><br />
+              <span>blue outline</span>
+            </p>
+          </div>
+          <img class="transition init-focus" src="img/init-focus.svg" alt="Transition from initial state to focus" />
+          <img class="transition focus-init" src="img/focus-init.svg" alt="Transition from focus to initial state" />
+          <p class="transition-label key-pressed-tab">Key pressed: Tab or Enter</p>
+        </div>
+        <div class="typing-model">
+          <div class="state typing">
+            <p class="state__text">
+              <strong>Typing</strong><br />
+              <span>gray placeholder text disappears, <br />white text appears, <br />blue outline</span>
+            </p>
+          </div>
+          <img class="transition focused-typing" src="img/focused-typing.svg" alt="Transition from focused to typing" />
+          <p class="transition-label key-pressed-any">Key pressed:<br />any character</p>
+        </div>
+        <p class="transition-label key-pressed-tab-bottom">Key pressed: Tab</p>
+      </section>
+    </main>
+  </body>
+</html>
