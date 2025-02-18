@@ -13,8 +13,8 @@
     rgb(207, 207, 207) 0%,
     rgb(18, 18, 18) 77%
   );
-  width: 100vw;
-  min-height: 100vh;
+  width: fit-content;
+  height: fit-content; /* Set height to match .part */
   position: relative;
 }
 
