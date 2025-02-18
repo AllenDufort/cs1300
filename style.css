@@ -43,37 +43,37 @@
   line-height: 24.0px;
 }
 
-.part .text-wrapper-2 {
+.part .yellow-text {
   font-weight: 700;
   color: #ffff66;
   font-size: 15px;
   line-height: 24.0px;
 }
 
-.part .text-wrapper-3 {
+.part .red-text {
   font-family: "Quantico-Regular", Helvetica;
   color: #fa5040;
   font-size: 15px;
   line-height: 24.0px;
 }
 
-.part .text-wrapper-4 {
-  font-weight: 700;
-  color: #1bd760;
-  font-size: 15px;
-  line-height: 24.0px;
-}
-
-.part .text-wrapper-5 {
-  font-family: "Quantico-Regular", Helvetica;
-  color: #1bd760;
-  font-size: 15px;
-  line-height: 24.0px;
-}
-
-.part .text-wrapper-6 {
+.part .red-text-2 {
   font-weight: 700;
   color: #fa5040;
+  font-size: 15px;
+  line-height: 24.0px;
+}
+
+.part .green-text {
+  font-weight: 700;
+  color: #1bd760;
+  font-size: 15px;
+  line-height: 24.0px;
+}
+
+.part .green-text-2 {
+  font-family: "Quantico-Regular", Helvetica;
+  color: #1bd760;
   font-size: 15px;
   line-height: 24.0px;
 }
@@ -91,23 +91,23 @@
   line-height: 32.0px;
 }
 
-.part .text-wrapper-7 {
+.part .text-wrapper {
   font-weight: 700;
 }
 
-.part .text-wrapper-8 {
+.part .text-wrapper-1 {
   font-weight: 700;
   font-size: 15px;
   line-height: 24.0px;
 }
 
-.part .text-wrapper-9 {
+.part .text-wrapper-2 {
   font-family: "Quantico-Regular", Helvetica;
   font-size: 15px;
   line-height: 24.0px;
 }
 
-.part .text-wrapper-10 {
+.part .quantico-bold {
   position: absolute;
   width: 975px;
   height: 115px;
@@ -166,7 +166,7 @@
   border-color: #ffffff;
 }
 
-.part .text-wrapper-11 {
+.part .quantico-bold-2 {
   position: relative;
   align-self: stretch;
   margin-top: -1.00px;
@@ -219,7 +219,7 @@
   line-height: 17.2px;
 }
 
-.part .text-wrapper-12 {
+.part .quantico-reg {
   font-family: "Quantico-Regular", Helvetica;
   color: #ffffff;
 }
@@ -270,11 +270,11 @@
   line-height: 17.2px;
 }
 
-.part .text-wrapper-13 {
+.part .quantico-reg-2 {
   font-family: "Quantico-Regular", Helvetica;
 }
 
-.part .text-wrapper-14 {
+.part .quantico-bold-3 {
   position: relative;
   align-self: stretch;
   margin-top: -2.00px;
@@ -286,7 +286,7 @@
   line-height: 17.2px;
 }
 
-.part .text-wrapper-15 {
+.part .quantico-reg-3 {
   position: relative;
   align-self: stretch;
   margin-top: -1.00px;
@@ -298,7 +298,7 @@
   line-height: 17.2px;
 }
 
-.part .text-wrapper-16 {
+.part .quantico-reg-4 {
   position: relative;
   align-self: stretch;
   font-family: "Quantico-Regular", Helvetica;
