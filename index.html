@@ -1,71 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Spotify State Model</title>
     <link rel="stylesheet" href="globals.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <main class="part">
-      <section class="state-model">
-        <h1 class="state-model__title">Spotify State Model</h1>
-        <div class="state-model__diagram">
-          <div class="state initial-state">
-            <p class="state__text">Initial State</p>
-          </div>
-          <div class="state hover">
-            <p class="state__text">
-              <strong>Hover</strong><br />
-              <span>fill slightly lightens, light gray outline</span>
+    <div class="part">
+      <div class="div">
+        <div class="overlap-group">
+          <div class="hover">
+            <p class="hover-fill-slightly">
+              <span class="text-wrapper">Hover<br /></span>
+              <span class="span">fill slightly lightens, light gray outline</span>
             </p>
           </div>
-          <div class="state focused">
-            <p class="state__text">
-              <strong>Focused</strong><br />
-              <span>fill goes to initial state,<br />white outline</span>
+          <div class="initial-state"><div class="text-wrapper-2">Initial State</div></div>
+          <div class="focused">
+            <p class="p">
+              <span class="text-wrapper">Focused<br /></span>
+              <span class="span">fill goes to initial state,<br />white outline</span>
             </p>
           </div>
-          <img class="transition hover-init" src="img/image.svg" alt="Transition from hover to initial state" />
-          <img class="transition init-hover" src="img/init-hover.svg" alt="Transition from initial state to hover" />
-          <img class="transition vector" src="img/vector-1.svg" alt="Transition vector" />
-          <img
-            class="transition hover-init-long"
-            src="img/hover-init.svg"
-            alt="Long transition from hover to initial state"
-          />
-          <p class="transition-label mouse-leaves">Mouse leaves</p>
-          <p class="transition-label mouse-clicks-another">Mouse clicks another component</p>
-          <p class="transition-label mouse-clicked">Mouse clicked</p>
-          <p class="transition-label mouse-enters">Mouse enters</p>
+          <img class="hover-init" src="img/image.svg" />
+          <img class="img" src="img/hover-init.svg" />
+          <img class="vector" src="img/vector-1.svg" />
+          <img class="init-hover" src="img/init-hover.svg" />
+          <div class="text-wrapper-3">Mouse leaves</div>
+          <div class="text-wrapper-4">Mouse clicks another component</div>
+          <div class="text-wrapper-5">Mouse clicked</div>
         </div>
-        <div class="focus-model">
-          <div class="state initial-state">
-            <p class="state__text">Initial State</p>
-          </div>
-          <div class="state focused">
-            <p class="state__text">
-              <strong>Focused</strong><br />
-              <span>blue outline</span>
+        <div class="overlap">
+          <div class="text-wrapper-6">Mouse enters</div>
+          <div class="text-wrapper-7">Spotify State Model</div>
+        </div>
+        <div class="overlap-2">
+          <div class="div-wrapper"><div class="text-wrapper-2">Initial State</div></div>
+          <div class="focused-wrapper">
+            <p class="focused-2">
+              <span class="text-wrapper">Focused<br /></span> <span class="span">blue outline</span>
             </p>
           </div>
-          <img class="transition init-focus" src="img/init-focus.svg" alt="Transition from initial state to focus" />
-          <img class="transition focus-init" src="img/focus-init.svg" alt="Transition from focus to initial state" />
-          <p class="transition-label key-pressed-tab">Key pressed: Tab or Enter</p>
+          <img class="init-focus" src="img/init-focus.svg" />
+          <img class="focus-init" src="img/focus-init.svg" />
+          <p class="text-wrapper-8">Key pressed: Tab or Enter</p>
         </div>
-        <div class="typing-model">
-          <div class="state typing">
-            <p class="state__text">
-              <strong>Typing</strong><br />
-              <span>gray placeholder text disappears, <br />white text appears, <br />blue outline</span>
+        <div class="overlap-3">
+          <div class="typing">
+            <p class="typing-2">
+              <span class="text-wrapper">Typing<br /></span>
+              <span class="span">gray placeholder text disappears, <br />white text appears, <br />blue outline</span>
             </p>
           </div>
-          <img class="transition focused-typing" src="img/focused-typing.svg" alt="Transition from focused to typing" />
-          <p class="transition-label key-pressed-any">Key pressed:<br />any character</p>
+          <img class="focused-typing" src="img/focused-typing.svg" />
+          <div class="key-pressed-any">Key pressed:<br />any character</div>
         </div>
-        <p class="transition-label key-pressed-tab-bottom">Key pressed: Tab</p>
-      </section>
-    </main>
+        <div class="text-wrapper-9">Key pressed: Tab</div>
+      </div>
+    </div>
   </body>
 </html>
