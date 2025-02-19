@@ -41,10 +41,24 @@
   line-height: 24.0px;
 }
 
+.part .intro {
+  position: absolute;
+  width: 80%;
+  top: 215px;
+  left: 10%;
+
+  font-style: bold;
+  font-weight: 400;
+  color: transparent;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 32.0px;
+}
+
 .part .components {
   position: absolute;
   width: 35%;
-  top: 165px;
+  top: 415px;
   left: 10%;
 
   font-style: bold;
@@ -58,7 +72,7 @@
 .part .comparisons {
   position: absolute;
   width: 35%;
-  top: 165px;
+  top: 415px;
   left: 55%;
 
   font-style: bold;
@@ -75,7 +89,7 @@
   width: 80%;
   align-items: flex-start;
   position: absolute;
-  top: 1090px;
+  top: 1340px;
   left: 10%;
   background-color: #757575;
   border-radius: 15px;
@@ -276,28 +290,28 @@
 .image-container.screenshot img {
   height: 500px;
   position: absolute;
-  top: 1750px;
+  top: 2000px;
   display: flex;
 }
 
 .image-container.old-model img {
   width: 48%;
   position: absolute;
-  top: 2400px;
+  top: 2650px;
   left: 2%
 }
 
 .image-container.revised-model img {
   width: 48%;
   position: absolute;
-  top: 2400px;
+  top: 2650px;
   right: 2%;
 }
 
 .image-container.hover-redesign img {
   width: 80%;
   position: absolute;
-  top: 2900px;
+  top: 3150px;
   left: 10%;
 }
 
@@ -310,17 +324,17 @@
 }
 
 .lines.hline1 {
-  top: 1000px; /* Adjust this value to position the line correctly */
+  top: 1050px; /* Adjust this value to position the line correctly */
   left: 0;
 }
 
 .lines.hline2 {
-  top: 2300px; /* Adjust this value to position the line correctly */
+  top: 2350px; /* Adjust this value to position the line correctly */
   left: 0;
 }
 
 .lines.hline2 {
-  top: 4100px; /* Adjust this value to position the line correctly */
+  top: 4150px; /* Adjust this value to position the line correctly */
   left: 0;
 }
 
@@ -339,17 +353,22 @@
   line-height: 50px;
 }
 
-.part .interaction {
-  top: 1005px;
+.part .intro-title {
+  top: 165px;
   left: 20%;
 }
 
-.part .redesign {
-  top: 2305px;
+.part .interaction-title {
+  top: 1255px;
   left: 20%;
 }
 
-.part .reflection {
-  top: 4105px;
+.part .redesign-title {
+  top: 2555px;
+  left: 20%;
+}
+
+.part .reflection-title {
+  top: 4355px;
   left: 20%;
 }
