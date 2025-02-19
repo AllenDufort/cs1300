@@ -5,6 +5,7 @@
   justify-content: center;
   width: 100vw;
   height: 4000px;
+  font-family: "Quantico", Helvetica;
 }
 
 .part .div {
@@ -32,7 +33,7 @@
 }
 
 .part .span {
-  font-family: "Quantico", Helvetica;
+
   font-style: normal;
   font-weight: 400;
   color: #ffffff;
@@ -45,7 +46,7 @@
   width: 35%;
   top: 165px;
   left: 10%;
-  font-family: "Quantico", Helvetica;
+
   font-style: bold;
   font-weight: 400;
   color: transparent;
@@ -59,7 +60,7 @@
   width: 35%;
   top: 165px;
   left: 55%;
-  font-family: "Quantico", Helvetica;
+
   font-style: bold;
   font-weight: 400;
   color: #ffffff;
@@ -74,14 +75,13 @@
   width: 80%;
   align-items: flex-start;
   position: absolute;
-  top: 833px;
+  top: 1090px;
   left: 10%;
   background-color: #757575;
   border-radius: 15px;
   overflow: hidden;
   border: 5px solid;
   border-color: #ffffff;
-  margin-top: 200px;
 }
 
 .part .table-row {
@@ -160,7 +160,7 @@
 }
 
 .part .red-text {
-  font-family: "Quantico", Helvetica;
+
   font-style: normal;
   color: #fa5040;
   font-size: 15px;
@@ -182,7 +182,7 @@
 }
 
 .part .green-text-2 {
-  font-family: "Quantico", Helvetica;
+
   font-style: normal;
   color: #1bd760;
   font-size: 15px;
@@ -190,7 +190,7 @@
 }
 
 .part .text-wrapper-2 {
-  font-family: "Quantico", Helvetica;
+
   font-style: normal;
   font-size: 15px;
   line-height: 24.0px;
@@ -203,7 +203,7 @@
   top: 24px;
   left: 10%;
   -webkit-text-stroke: 1px #000000;
-  font-family: "Quantico", Helvetica;
+
   font-style: bold;
   font-weight: 700;
   color: #ffffff;
@@ -217,7 +217,7 @@
   position: relative;
   align-self: stretch;
   margin-top: -1.00px;
-  font-family: "Quantico", Helvetica;
+
   font-style: bold;
   font-weight: 700;
   color: #ffffff;
@@ -231,7 +231,7 @@
   position: relative;
   align-self: stretch;
   margin-top: -2.00px;
-  font-family: "Quantico", Helvetica;
+
   font-style: bold;
   font-weight: 700;
   color: #ffffff;
@@ -244,7 +244,7 @@
   position: relative;
   align-self: stretch;
   margin-top: -1.00px;
-  font-family: "Quantico", Helvetica;
+
   font-style: normal;
   font-weight: 400;
   color: #ffffff;
@@ -256,7 +256,7 @@
 .part .cell-text {
   position: relative;
   align-self: stretch;
-  font-family: "Quantico", Helvetica;
+
   font-style: bold;
   font-weight: 400;
   color: #ffffff;
@@ -278,17 +278,49 @@
 .part .image-container img {
   height: 500px;
   position: absolute;
-  top: 2000px;
+  top: 1800px;
   /* left: 0%; */
-  display: block;
+  display: flex;
 }
 
-.part .horizontal-line {
+.lines {
   width: 100%;
   border: 0;
   height: 1px;
   background: #ffffff;
   position: absolute;
-  top: 800px; /* Adjust this value to position the line correctly */
+}
+
+.lines.hline1 {
+  top: 1000px; /* Adjust this value to position the line correctly */
   left: 0;
+}
+
+.lines.hline2 {
+  top: 2300px; /* Adjust this value to position the line correctly */
+  left: 0;
+}
+
+.part .subtitle {
+  position: absolute;
+  width: 60%;
+  height: 115px;
+
+  font-style: bold;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 50px;
+}
+
+.part .subtitle.interaction {
+  top: 1005px;
+  left: 20%;
+}
+
+.part .subtitle.redesign {
+  top: 2305px;
+  left: 20%;
 }
