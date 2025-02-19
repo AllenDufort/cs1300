@@ -285,7 +285,6 @@
   position: absolute;
   top: 2400px;
   left: 2%
-  /* display: flex; */
 }
 
 .image-container.revised-model img {
@@ -293,9 +292,14 @@
   position: absolute;
   top: 2400px;
   right: 2%;
-  /* display: flex; */
 }
 
+.image-container.hover-redesign img {
+  width: 80%;
+  position: absolute;
+  top: 2800px;
+  left: 10%;
+}
 
 .lines {
   width: 100%;
