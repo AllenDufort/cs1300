@@ -324,17 +324,23 @@
 }
 
 .lines.hline1 {
-  top: 1050px; /* Adjust this value to position the line correctly */
+  top: 190px;
+  left: 0;
+}
+
+
+.lines.hline1 {
+  top: 1250px; /* Adjust this value to position the line correctly */
   left: 0;
 }
 
 .lines.hline2 {
-  top: 2350px; /* Adjust this value to position the line correctly */
+  top: 2550px; /* Adjust this value to position the line correctly */
   left: 0;
 }
 
-.lines.hline2 {
-  top: 4150px; /* Adjust this value to position the line correctly */
+.lines.hline3 {
+  top: 4350px; /* Adjust this value to position the line correctly */
   left: 0;
 }
 
@@ -354,6 +360,11 @@
 }
 
 .part .intro-title {
+  top: 165px;
+  left: 20%;
+}
+
+.part .components-title {
   top: 165px;
   left: 20%;
 }
