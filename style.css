@@ -275,13 +275,29 @@
   /* position: relative; */
 }
 
-.part .image-container img {
+.part .image-container.screenshot {
   height: 500px;
   position: absolute;
   top: 1800px;
-  /* left: 0%; */
   display: flex;
 }
+
+.part .image-container.old-model {
+  height: 600px;
+  position: absolute;
+  top: 2400px;
+  left: 10%;
+  display: flex;
+}
+
+.part .image-container.new-model {
+  height: 600px;
+  position: absolute;
+  top: 2400px;
+  right: 10%;
+  display: flex;
+}
+
 
 .lines {
   width: 100%;
