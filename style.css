@@ -196,7 +196,7 @@
   line-height: 24.0px;
 }
 
-.part .title {
+.part h1 {
   position: absolute;
   width: 80%;
   height: 115px;
@@ -319,7 +319,13 @@
   left: 0;
 }
 
-.part .subtitle {
+.lines.hline2 {
+  top: 4100px; /* Adjust this value to position the line correctly */
+  left: 0;
+}
+
+
+.part h2 {
   position: absolute;
   width: 60%;
   height: 115px;
@@ -333,12 +339,17 @@
   line-height: 50px;
 }
 
-.part .subtitle.interaction {
+.part .interaction {
   top: 1005px;
   left: 20%;
 }
 
-.part .subtitle.redesign {
+.part .redesign {
   top: 2305px;
+  left: 20%;
+}
+
+.part .reflection {
+  top: 4105px;
   left: 20%;
 }
