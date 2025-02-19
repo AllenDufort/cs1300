@@ -4,7 +4,7 @@
   flex-direction: row;
   justify-content: center;
   width: 100vw;
-  height: 2000px;
+  height: 4000px;
 }
 
 .part .div {
@@ -263,4 +263,32 @@
   font-size: 15px;
   letter-spacing: 0;
   line-height: 17.2px;
+}
+
+.part .image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  /* position: relative; */
+}
+
+.part .image-container img {
+  height: 500px;
+  position: absolute;
+  top: 2000px;
+  /* left: 0%; */
+  display: block;
+}
+
+.part .horizontal-line {
+  width: 100%;
+  border: 0;
+  height: 1px;
+  background: #ffffff;
+  position: absolute;
+  top: 800px; /* Adjust this value to position the line correctly */
+  left: 0;
 }
