@@ -12,8 +12,8 @@
   background-color: rgba(255, 255, 255, 1.0);
   background: linear-gradient(
     180deg,
-    rgb(180, 180, 180) 0%,
-    rgb(18, 18, 18) 77%
+    rgb(10, 10, 10) 0%,
+    rgb(188, 202, 234) 77%
   );
   width: inherit;
   height: inherit;
@@ -78,6 +78,20 @@
   font-style: bold;
   font-weight: 400;
   color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 32.0px;
+}
+
+.part .reflection {
+  position: absolute;
+  width: 60%;
+  top: 4250px;
+  left: 20%;
+
+  font-style: bold;
+  font-weight: 400;
+  color: transparent;
   font-size: 20px;
   letter-spacing: 0;
   line-height: 32.0px;
@@ -311,7 +325,7 @@
 .image-container.hover-redesign img {
   width: 80%;
   position: absolute;
-  top: 3150px;
+  top: 3250px;
   left: 10%;
 }
 
