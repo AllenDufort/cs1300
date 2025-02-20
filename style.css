@@ -1,26 +1,38 @@
-.part {
-  background-color: rgba(255, 255, 255, 1.0);
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 100vw;
-  height: 5000px;
-  font-family: "Quantico", Helvetica;
-}
-
-.part .div {
+/* Base Layout */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 200%;
+  overflow-y: scroll;
   background-color: rgba(255, 255, 255, 1.0);
   background: linear-gradient(
     180deg,
     rgb(10, 10, 10) 0%,
     rgb(188, 202, 234) 77%
   );
-  width: inherit;
-  height: inherit;
+  font-family: "Quantico", Helvetica;
+}
+
+.part {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100vw;
+  min-height: 4500px;
+  margin: 0;
+  padding: 0;
   position: relative;
 }
 
+.part .div {
+  width: 100%;
+  min-height: 100%;
+  position: relative;
+  overflow: hidden;
+}
 
+/* Typography Base Styles */
 .part .text-wrapper {
   font-weight: 700;
   color: #ffffff;
@@ -32,8 +44,13 @@
   line-height: 24.0px;
 }
 
-.part .span {
+.part .text-wrapper-2 {
+  font-style: normal;
+  font-size: 15px;
+  line-height: 24.0px;
+}
 
+.part .span {
   font-style: normal;
   font-weight: 400;
   color: #ffffff;
@@ -41,12 +58,111 @@
   line-height: 24.0px;
 }
 
+/* Quantico Font Styles */
+.part .quantico-bold {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-style: bold;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 27.6px;
+}
+
+.part .quantico-bold-small {
+  position: relative;
+  align-self: stretch;
+  margin-top: -2.00px;
+  font-style: bold;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 17.2px;
+}
+
+.part .quantico-reg {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-style: normal;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 17.2px;
+}
+
+/* Headings */
+.part h1 {
+  position: absolute;
+  width: 80%;
+  height: 115px;
+  top: 24px;
+  left: 10%;
+  -webkit-text-stroke: 1px #000000;
+  font-style: bold;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 64px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 73.6px;
+}
+
+.part h2 {
+  position: absolute;
+  width: 60%;
+  height: 115px;
+  font-style: bold;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 50px;
+}
+
+/* Section Titles */
+.part .intro-title {
+  top: 165px;
+  left: 20%;
+}
+
+.part .components-title {
+  top: 350px;
+  left: 20%;
+}
+
+.part .interaction-title {
+  top: 1255px;
+  left: 20%;
+}
+
+.part .models-title {
+  top: 2555px;
+  left: 20%;
+}
+
+.part .spotify-title {
+  top: 3165px;
+  left: 20%;
+}
+
+.part .reflection-title {
+  top: 3905px;
+  left: 20%;
+}
+
+/* Content Sections */
 .part .intro {
   position: absolute;
   width: 60%;
   top: 215px;
   left: 20%;
-
   font-style: bold;
   font-weight: 400;
   color: transparent;
@@ -60,7 +176,6 @@
   width: 35%;
   top: 415px;
   left: 10%;
-
   font-style: bold;
   font-weight: 400;
   color: transparent;
@@ -74,7 +189,6 @@
   width: 35%;
   top: 415px;
   left: 55%;
-
   font-style: bold;
   font-weight: 400;
   color: #ffffff;
@@ -88,7 +202,6 @@
   width: 60%;
   top: 4000px;
   left: 20%;
-
   font-style: bold;
   font-weight: 400;
   color: transparent;
@@ -97,6 +210,7 @@
   line-height: 32.0px;
 }
 
+/* Table Styles */
 .part .table {
   display: flex;
   flex-direction: column;
@@ -127,35 +241,34 @@
 }
 
 .part .table-row-2 {
+  display: flex;
+  align-items: flex-start;
   justify-content: space-between;
+  position: relative;
+  align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
   background-color: #757575;
   border-bottom-width: 2px;
   border-bottom-style: solid;
-  display: flex;
-  align-items: flex-start;
-  position: relative;
-  align-self: stretch;
   border-color: #ffffff;
 }
 
 .part .table-cell {
+  display: flex;
   flex-direction: column;
+  align-items: flex-start;
   padding: 7px;
+  position: relative;
   flex: 1;
+  align-self: stretch;
   flex-grow: 1;
   border-right-width: 2px;
   border-right-style: solid;
-  display: flex;
-  align-items: flex-start;
-  position: relative;
-  align-self: stretch;
   border-color: #ffffff;
 }
 
 .part .table-cell-2 {
-  border: 0px none;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -164,6 +277,7 @@
   flex: 1;
   align-self: stretch;
   flex-grow: 1;
+  border: 0px none;
 }
 
 .part .table-cell-3 {
@@ -180,6 +294,18 @@
   border-color: #ffffff;
 }
 
+.part .cell-text {
+  position: relative;
+  align-self: stretch;
+  font-style: bold;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 17.2px;
+}
+
+/* Color-Coded Text */
 .part .yellow-text {
   font-weight: 700;
   color: #ffff66;
@@ -188,7 +314,6 @@
 }
 
 .part .red-text {
-
   font-style: normal;
   color: #fa5040;
   font-size: 15px;
@@ -210,89 +335,13 @@
 }
 
 .part .green-text-2 {
-
   font-style: normal;
   color: #1bd760;
   font-size: 15px;
   line-height: 24.0px;
 }
 
-.part .text-wrapper-2 {
-
-  font-style: normal;
-  font-size: 15px;
-  line-height: 24.0px;
-}
-
-.part h1 {
-  position: absolute;
-  width: 80%;
-  height: 115px;
-  top: 24px;
-  left: 10%;
-  -webkit-text-stroke: 1px #000000;
-
-  font-style: bold;
-  font-weight: 700;
-  color: #ffffff;
-  font-size: 64px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 73.6px;
-}
-
-.part .quantico-bold {
-  position: relative;
-  align-self: stretch;
-  margin-top: -1.00px;
-
-  font-style: bold;
-  font-weight: 700;
-  color: #ffffff;
-  font-size: 24px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 27.6px;
-}
-
-.part .quantico-bold-small {
-  position: relative;
-  align-self: stretch;
-  margin-top: -2.00px;
-
-  font-style: bold;
-  font-weight: 700;
-  color: #ffffff;
-  font-size: 15px;
-  letter-spacing: 0;
-  line-height: 17.2px;
-}
-
-.part .quantico-reg {
-  position: relative;
-  align-self: stretch;
-  margin-top: -1.00px;
-
-  font-style: normal;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 15px;
-  letter-spacing: 0;
-  line-height: 17.2px;
-}
-
-.part .cell-text {
-  position: relative;
-  align-self: stretch;
-
-  font-style: bold;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 15px;
-  letter-spacing: 0;
-  line-height: 17.2px;
-}
-
+/* Image Containers */
 .part .image-container {
   display: flex;
   justify-content: center;
@@ -329,6 +378,7 @@
   left: 10%;
 }
 
+/* Horizontal Lines */
 .lines {
   width: 100%;
   border: 0;
@@ -360,48 +410,4 @@
 .lines.hline4 {
   top: 3900px;
   left: 0;
-}
-
-.part h2 {
-  position: absolute;
-  width: 60%;
-  height: 115px;
-
-  font-style: bold;
-  font-weight: 700;
-  color: #ffffff;
-  font-size: 40px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 50px;
-}
-
-.part .intro-title {
-  top: 165px;
-  left: 20%;
-}
-
-.part .components-title {
-  top: 350px;
-  left: 20%;
-}
-
-.part .interaction-title {
-  top: 1255px;
-  left: 20%;
-}
-
-.part .models-title {
-  top: 2555px;
-  left: 20%;
-}
-
-.part .spotify-title {
-  top: 3165px;
-  left: 20%;
-}
-
-.part .reflection-title {
-  top: 3905px;
-  left: 20%;
 }
