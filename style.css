@@ -43,9 +43,9 @@
 
 .part .intro {
   position: absolute;
-  width: 80%;
+  width: 60%;
   top: 215px;
-  left: 10%;
+  left: 20%;
 
   font-style: bold;
   font-weight: 400;
@@ -323,27 +323,30 @@
   position: absolute;
 }
 
-.lines.hline1 {
-  top: 190px;
+.lines.hline0 {
+  top: 345px;
   left: 0;
 }
 
-
 .lines.hline1 {
-  top: 1250px; /* Adjust this value to position the line correctly */
+  top: 1250px;
   left: 0;
 }
 
 .lines.hline2 {
-  top: 2550px; /* Adjust this value to position the line correctly */
+  top: 2550px;
   left: 0;
 }
 
 .lines.hline3 {
-  top: 4350px; /* Adjust this value to position the line correctly */
+  top: 3160px;
   left: 0;
 }
 
+.lines.hline4 {
+  top: 4350px;
+  left: 0;
+}
 
 .part h2 {
   position: absolute;
@@ -365,7 +368,7 @@
 }
 
 .part .components-title {
-  top: 165px;
+  top: 350px;
   left: 20%;
 }
 
@@ -374,8 +377,13 @@
   left: 20%;
 }
 
-.part .redesign-title {
+.part .models-title {
   top: 2555px;
+  left: 20%;
+}
+
+.part .spotify-title {
+  top: 3165px;
   left: 20%;
 }
 
