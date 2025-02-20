@@ -86,7 +86,7 @@
 .part .reflection {
   position: absolute;
   width: 60%;
-  top: 4250px;
+  top: 4000px;
   left: 20%;
 
   font-style: bold;
@@ -358,7 +358,7 @@
 }
 
 .lines.hline4 {
-  top: 4350px;
+  top: 3900px;
   left: 0;
 }
 
@@ -402,6 +402,6 @@
 }
 
 .part .reflection-title {
-  top: 4355px;
+  top: 3905px;
   left: 20%;
 }
